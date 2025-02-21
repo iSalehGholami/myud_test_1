@@ -1,21 +1,26 @@
-name: myud_test_1
+name: myud_altstore
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: ">=3.2.3 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   uni_links: ^0.5.1
   url_launcher: ^6.3.0
+  google_fonts: 6.1.0
+  iconsax: ^0.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  # flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
